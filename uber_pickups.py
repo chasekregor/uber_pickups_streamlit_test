@@ -3,9 +3,6 @@ import pandas as pd
 import numpy as np
 
 
-from PIL import Image
-image = Image.open('/Users/chasekregor/PycharmProjects/pythonProject1/sunrise.jpeg')
-st.image(image, caption='Sunrise by the mountains')
 
 st.title('Uber pickups in NYC')
 st.markdown('Streamlit is **_really_ cool**.')
